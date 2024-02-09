@@ -16,5 +16,8 @@ Ao invés de simplesmente alterarmos valores diretamente no código, veremos com
 
 *As Operações Aritméticas fundamentais são: adição, subtração, multiplicação e divisão.
 
-nome = 
+nome = input("Digite seu nome: ")
+nascimento = input("Qual seu ano de nascimento? ")
+email = input("Digite seu e-mail: ")
+print("Nome: " , nome , ". E-mail: " , email , ". Nascimento: " , nascimento , ".")
 
