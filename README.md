@@ -34,3 +34,5 @@ um texto e uma função;
 um texto e uma estrutura de dados, por exemplo, listas;
 uma variável e uma estrutura de dados;
 uma função e uma estrutura de dados.
+
+Esta concatenação auxilia o interpretador da linguagem a compreender onde um comando termina ou inicia, de forma que os conceitos não sejam confundidos.
