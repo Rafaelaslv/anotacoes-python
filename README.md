@@ -21,3 +21,9 @@ nascimento = input("Qual seu ano de nascimento? ")
 email = input("Digite seu e-mail: ")
 print("Nome: " , nome , ". E-mail: " , email , ". Nascimento: " , nascimento , ".")
 
+---
+
+Os textos não podem se misturar com variáveis, a menos que exista algum elo entre as partes envolvidas. Este elo nós chamamos de concatenação.
+
+Em Python, a concatenação é determinada como sendo uma vírgula e deve ficar entre:
+
