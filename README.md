@@ -27,3 +27,10 @@ Os textos não podem se misturar com variáveis, a menos que exista algum elo en
 
 Em Python, a concatenação é determinada como sendo uma vírgula e deve ficar entre:
 
+um texto e uma variável;
+uma variável e outra variável;
+uma variável e uma função;
+um texto e uma função;
+um texto e uma estrutura de dados, por exemplo, listas;
+uma variável e uma estrutura de dados;
+uma função e uma estrutura de dados.
