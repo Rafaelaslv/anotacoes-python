@@ -44,4 +44,11 @@ Esta concatenação auxilia o interpretador da linguagem a compreender onde um c
 Uma saída de dados é o fato de imprimir valores em tela. Essa impressão se dá por meio do comando print()
 
 ---
+
 #### TRATAMENTO DE INPUT/OUTPUT
+
+O casting informa ao interpretador do Python que aquele dado que inicialmente foi recebido como texto, na verdade, deve ser convertido para algum outro tipo, como por exemplo, número inteiro.
+
+int() - converte dados do tipo String ou Floats para inteiros
+float() - converte dados do tipo inteiro ou Strings para números com casas decimais
+str() - converte dados do tipo decimais ou inteiros para texto
