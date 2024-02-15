@@ -40,3 +40,8 @@ Esta concatenação auxilia o interpretador da linguagem a compreender onde um c
 ---
 
 #### SAÍDA DE DADOS
+
+Uma saída de dados é o fato de imprimir valores em tela. Essa impressão se dá por meio do comando print()
+
+---
+#### TRATAMENTO DE INPUT/OUTPUT
