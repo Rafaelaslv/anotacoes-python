@@ -52,3 +52,23 @@ O casting informa ao interpretador do Python que aquele dado que inicialmente fo
 int() - converte dados do tipo String ou Floats para inteiros
 float() - converte dados do tipo inteiro ou Strings para números com casas decimais
 str() - converte dados do tipo decimais ou inteiros para texto
+
+---
+
+É importante salientar que, caso você converta números que tenham casas decimais para números inteiros, ocorrerá o arredondamento para baixo, ou seja, um valor de 1,9 será convertido para 1 e não para 2 (a menos que haja um comando específico de arredondamento para cima).
+
+---
+
+Embora muito presentes, as operações matemáticas não são as únicas presentes na programação. Existem outras operações amplamente utilizadas, principalmente em testes condicionais ou laços de repetição
+
+#### Operadores aritméticos
+
+São aqueles responsáveis por realizar cálculos matemáticos. São eles:
+
++ (adição)
+- (subtração)
+* (multiplicação)
+/ (divisão)
+% (módulo)
+** (potenciação)
+sqrt() (radiciação)
