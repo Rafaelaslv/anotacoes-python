@@ -72,3 +72,19 @@ São aqueles responsáveis por realizar cálculos matemáticos. São eles:
 % (módulo)
 ** (potenciação)
 sqrt() (radiciação)
+
+Os cálculos de álgebra simples, como as quatro operações fundamentais (adição, subtração, multiplicação e divisão) podem ser executados diretamente. Outros operadores que também podem ser executados de forma direta, embora não compunham as operações básicas, são o módulo (resto de uma divisão) e a potenciação, já a radiciação, requer a importação de um pacote
+
+---
+
+#### Operadores relacionais
+
+Esses operadores relacionam dois elementos entre si buscando uma saída lógica que deverá sempre ser verdadeira ou falsa. Os operadores relacionais são:
+
+> (maior que)
+< (menor que)
+>= (maior ou igual a)
+<= (menor ou igual que)
+== (igual a)
+!= (diferente de)
+
