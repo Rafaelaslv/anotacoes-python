@@ -92,5 +92,14 @@ Se saldo >= valorDoSaque então realize saque
 
 ---
 
-### Operadores lógicos
+#### Operadores lógicos
 
+Similar aos operadores relacionais, os operadores lógicos também são mais utilizados em situações de comparação entre dois ou mais elementos e têm, obrigatoriamente, a saída verdadeira ou falsa. Os operadores lógicos são:
+
+and (e) - em alguns casos utiliza-se o &&, dependendo da linguagem
+or (ou) - em alguns casos utiliza-se o ||, dependendo da linguagem
+! (não) - em alguns casos utiliza-se o not, dependendo da linguagem
+
+---
+
+#### Conceituando pacotes
