@@ -88,3 +88,9 @@ Esses operadores relacionam dois elementos entre si buscando uma saída lógica 
 == (igual a)
 != (diferente de)
 
+Se saldo >= valorDoSaque então realize saque
+
+---
+
+### Operadores lógicos
+
