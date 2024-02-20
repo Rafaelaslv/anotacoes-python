@@ -103,3 +103,5 @@ or (ou) - em alguns casos utiliza-se o ||, dependendo da linguagem
 ---
 
 #### Conceituando pacotes
+
+Em algumas situações você precisará importar pacotes para realizar algumas operações, sejam elas matemáticas ou não. Pacotes são conjuntos de códigos pré-desenvolvidos e acoplados à linguagem que facilitam a construção de determinados algoritmos.
