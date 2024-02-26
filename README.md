@@ -107,3 +107,9 @@ or (ou) - em alguns casos utiliza-se o ||, dependendo da linguagem
 Em algumas situações você precisará importar pacotes para realizar algumas operações, sejam elas matemáticas ou não. Pacotes são conjuntos de códigos pré-desenvolvidos e acoplados à linguagem que facilitam a construção de determinados algoritmos.
 
 Para poupar o trabalho do programador, o Python (e outras linguagens também) traz o pacote math(), responsável por importar várias funções matemáticas pré-estruturadas, dentre elas, a função de radiciação.
+
+Ao invocar a função sqrt() ela ficará com um sublinhado apontando uma possível falha. Ao posicionar o mouse sobre o erro é exposto o motivo da falha: “sqrt não está definida”. Isso significa que este arquivo em questão não sabe o que é sqrt, afinal, não há a importação de um pacote que ajude-o a identificar a função utilizada.
+
+Clicando sobre o link azul “Correção rápida”, o VSCode irá propor a importação do pacote “math”
+
+O código passará a funcionar da maneira correta e estará pronto para ser executado.
