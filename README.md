@@ -113,3 +113,19 @@ Ao invocar a função sqrt() ela ficará com um sublinhado apontando uma possív
 Clicando sobre o link azul “Correção rápida”, o VSCode irá propor a importação do pacote “math”
 
 O código passará a funcionar da maneira correta e estará pronto para ser executado.
+
+---
+
+Não esqueça do que já exploramos:
+
+Tipagem dinâmica
+Sobreposição de valores em variáveis
+Regras na construção de nomes de variáveis
+
+---
+
+Não esqueça de algumas regras:
+
+Para se agrupar informações, utilize o parênteses
+Não existe raiz quadrada de números negativos
+Se quiser apontar um número como negativo, coloque o sinal de “menos” antes do número.
