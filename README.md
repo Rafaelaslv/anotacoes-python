@@ -129,3 +129,7 @@ Não esqueça de algumas regras:
 Para se agrupar informações, utilize o parênteses
 Não existe raiz quadrada de números negativos
 Se quiser apontar um número como negativo, coloque o sinal de “menos” antes do número.
+
+---
+
+Código utilizados na aula: https://github.com/FaculdadeDescomplica/Python
