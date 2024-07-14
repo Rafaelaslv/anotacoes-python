@@ -8,8 +8,6 @@
 
 #### MANIPULAÇÃO DE DADOS
 
-Ao invés de simplesmente alterarmos valores diretamente no código, veremos como lidar com esses valores por meio de comandos específico que recebem os dados digitados pelo usuário e os atribui às variáveis.
-
  *inserção (input)* Este comando permite a atribuição de valores previamente escritos pelo usuário, a variáveis, de forma a tornar a aplicação mais dinâmica.
 
  *output (saída)* 
