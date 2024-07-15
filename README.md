@@ -8,13 +8,21 @@
 
 #### MANIPULAÇÃO DE DADOS
 
-ADC O QUE SIGNIFICA MANIP DE DADOS E OUTPUT
+Entrada de dados: É tudo aquilo que o usuário digita. (nome, CPF, endereço, ...)
+E eles ficarão armazenados no Software/Programa/Algoritmo. (Mais especificamente nas variaáveis)
 
- *inserção (input)* Este comando permite a atribuição de valores previamente escritos pelo usuário, a variáveis, de forma a tornar a aplicação mais dinâmica.
+COMANDO PADRÃO PARA ENTRADA DE DADOS:
+ *inserção (input)* Este comando permite a atribuição de valores previamente escritos pelo usuário, a variáveis, de forma a tornar a aplicação mais dinâmica. (ENTRAR COM DADOS DENTRO DE UMA VARIÁVEL)
+A variável declarada não receberá mais um valor fixo. (nome = "Marcio")
+Mas ela irá receber o comendo de input. (nome = input("Digite seu nome: ")
+E o valor digitado será colocado dentro da variável nome.
 
- *output (saída)* 
+Cada uma das variáveis recebe o comando input, que é formado pela palavra “input” e acrescida de dois parênteses, dentro dos quais, consta o que será exibido na tela como comando para o usuário.
 
-ADC SEXTO PARAGRAFO *****
+PARA EXECUTAR você pode clicar em Iniciar a Depuração (F5) e passar linha por linha para verificar se há algum erro ou falha no seu algoritmo.
+
+E tudo o que for digitado aparecerá no terminal porque estamos apenas testando, mas quando fpor um programa real em uso, você irá gerar um Software/aplicação que tenha a interface gráfica.
+
 
 *As Operações Aritméticas fundamentais são: adição, subtração, multiplicação e divisão.
 
@@ -37,13 +45,19 @@ um texto e uma estrutura de dados, por exemplo, listas;
 uma variável e uma estrutura de dados;
 uma função e uma estrutura de dados.
 
-Esta concatenação auxilia o interpretador da linguagem a compreender onde um comando termina ou inicia, de forma que os conceitos não sejam confundidos.
+*Concatenação* Como os textos não podem se misturar com as variaáveis, a concatenação que é representada como um elo, auxilia o interpretador da linguagem a compreender onde um comando termina ou inicia, de forma que os conceitos não sejam confundidos. E em Python ela é determinada como uma vírgula.
+
+Uma característica padrão de todas as linguagens de programação é que os textos puros sempre são escritos entre aspas.
+
+É importante atentar-se a esse detalhe de forma a garantir que os textos não sejam confundidos com variáveis pelo interpretador Python. Um texto que não esteja entre aspas tem todas as características de uma variável, afinal, variáveis são meras palavras
 
 ---
 
 #### SAÍDA DE DADOS
 
-Uma saída de dados é o fato de imprimir valores em tela. Essa impressão se dá por meio do comando print()
+ *impressão (print)* - Este comando permite exibir os valores na tela.
+ 
+Uma saída de dados é o fato de imprimir valores em tela. Essa impressão se dá por meio do comando print().
 
 ---
 
