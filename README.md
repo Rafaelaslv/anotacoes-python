@@ -8,9 +8,13 @@
 
 #### MANIPULAÇÃO DE DADOS
 
+ADC O QUE SIGNIFICA MANIP DE DADOS E OUTPUT
+
  *inserção (input)* Este comando permite a atribuição de valores previamente escritos pelo usuário, a variáveis, de forma a tornar a aplicação mais dinâmica.
 
  *output (saída)* 
+
+ADC SEXTO PARAGRAFO *****
 
 *As Operações Aritméticas fundamentais são: adição, subtração, multiplicação e divisão.
 
