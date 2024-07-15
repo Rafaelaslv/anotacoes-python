@@ -57,7 +57,13 @@ Uma característica padrão de todas as linguagens de programação é que os te
 
  *impressão (print)* - Este comando permite exibir os valores na tela.
  
-Uma saída de dados é o fato de imprimir valores em tela. Essa impressão se dá por meio do comando print().
+Uma saída de dados é o fato de imprimir valores em tela. Essa impressão se dá por meio do comando print() que é responsável por capturar tudo o que estiver previamente descrito em variáveis e imprimir no console mediante a execução.
+
+Sempre que você quiser que algo apareça na tela, você usará o comando print.
+
+PARA VERIFICAR A VERSÃO QUE O SEU PYTHON ESTÁ RODANDO: py --version (hífen hífen)
+
+PARA LIMPAR A TELA: cls
 
 ---
 
