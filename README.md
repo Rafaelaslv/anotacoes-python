@@ -69,7 +69,21 @@ PARA LIMPAR A TELA: cls
 
 #### TRATAMENTO DE INPUT/OUTPUT
 
+Tratamento de dados significa deixar a estrutura do input/output da forma que eu desejo.
+
+EXEMPLO INCORRETO:
+
+a = input("Digite um número: ")
+print(a + 5)
+
+EXEMPLO CORRETO:
+
+a = int(input("Digite um número: "))
+print(a + 5)
+
 O casting informa ao interpretador do Python que aquele dado que inicialmente foi recebido como texto, na verdade, deve ser convertido para algum outro tipo, como por exemplo, número inteiro.
+
+Caso você não realize esse tratamento, aparecerá erros no seu algoritmo, pois o input foi feito para que você insira texto/string/caractér.
 
 int() - converte dados do tipo String ou Floats para inteiros
 float() - converte dados do tipo inteiro ou Strings para números com casas decimais
