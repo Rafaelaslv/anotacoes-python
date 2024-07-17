@@ -91,11 +91,15 @@ str() - converte dados do tipo decimais ou inteiros para texto
 
 É importante salientar que, caso você converta números que tenham casas decimais para números inteiros, ocorrerá o arredondamento para baixo, ou seja, um valor de 1,9 será convertido para 1 e não para 2 (a menos que haja um comando específico de arredondamento para cima).
 
+Atente-se, entretanto, ao detalhe: casas decimais em programação, não são marcadas com uma vírgula, mas sim com um ponto, afinal, a vírgula já tem o papel de concatenação. Desta forma, o número 1,9 seria representado como 1.9 dentro de seu código.
+
 ---
 
-Embora muito presentes, as operações matemáticas não são as únicas presentes na programação. Existem outras operações amplamente utilizadas, principalmente em testes condicionais ou laços de repetição
-
 #### Operadores aritméticos
+
+Possivelmente você notou na linha 4 da Figura 9, que ocorreu um cálculo matemático. Essa é uma das mágicas da programação, a possibilidade de realizar operações aritméticas de maneira precisa e baseadas em dados fixos ou variáveis.
+
+Embora muito presentes, as operações matemáticas não são as únicas presentes na programação. Existem outras operações amplamente utilizadas, principalmente em testes condicionais ou laços de repetição
 
 São aqueles responsáveis por realizar cálculos matemáticos. São eles:
 
