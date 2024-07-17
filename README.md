@@ -97,15 +97,24 @@ Atente-se, entretanto, ao detalhe: casas decimais em programação, não são ma
 
 #### Operadores aritméticos
 
-Possivelmente você notou na linha 4 da Figura 9, que ocorreu um cálculo matemático. Essa é uma das mágicas da programação, a possibilidade de realizar operações aritméticas de maneira precisa e baseadas em dados fixos ou variáveis.
+Um operador é um elemento que relaciona dois ou mais elementos dentro de uma proposição.
 
 Embora muito presentes, as operações matemáticas não são as únicas presentes na programação. Existem outras operações amplamente utilizadas, principalmente em testes condicionais ou laços de repetição
 
+TEMOS 3 CATEGORIAS:
+OPERADORES ARITMÉTICOS
+OPERADORES RELACIONAIS
+OPERADORES LÓGICOS
+
+Alguns operadores no PYTHON são diferentes de outras linguagens de programação.
+
+Possivelmente você notou na linha 4 da Figura 9, que ocorreu um cálculo matemático. Essa é uma das mágicas da programação, a possibilidade de realizar operações aritméticas de maneira precisa e baseadas em dados fixos ou variáveis.
+
 São aqueles responsáveis por realizar cálculos matemáticos. São eles:
 
-+ (adição)
-- (subtração)
-* (multiplicação)
++ (operador da adição)
+- (subtração) hífen
+* (multiplicação) asterisco
 / (divisão)
 % (módulo)
 ** (potenciação)
