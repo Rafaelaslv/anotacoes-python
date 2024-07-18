@@ -116,11 +116,14 @@ São aqueles responsáveis por realizar cálculos matemáticos. São eles:
 - (subtração) hífen
 * (multiplicação) asterisco
 / (divisão)
-% (módulo)
+% (módulo) O módulo é responsável por expôr o resto inteiro de uma divisão, por exemplo: 20 / 3 = 18 (com resto 2). Atente-se ao detalhe: estamos tratando de divisão inteira, logo, o resultado não seria 6.666.
+Em suma, a nível de algoritmo, a expressão seria algo como: 20 % 3 = 2, afinal, 20 em uma divisão por 3, sobra dois.
 ** (potenciação)
 sqrt() (radiciação)
 
 Os cálculos de álgebra simples, como as quatro operações fundamentais (adição, subtração, multiplicação e divisão) podem ser executados diretamente. Outros operadores que também podem ser executados de forma direta, embora não compunham as operações básicas, são o módulo (resto de uma divisão) e a potenciação, já a radiciação, requer a importação de um pacote
+
+Da mesma forma que a regra de operadores, da matemática, prevalece na programação, as regras de agrupamento também estão presentes. Dessa forma, é possível utilizar o conceito de parênteses, colchetes e chaves para agrupar valores por ordem de execução de cálculo, lembrando que, em programação, utilizamos apenas parênteses para agrupar dados.
 
 ---
 
