@@ -118,10 +118,12 @@ São aqueles responsáveis por realizar cálculos matemáticos. São eles:
 / (divisão)
 % (módulo) O módulo é responsável por expôr o resto inteiro de uma divisão, por exemplo: 20 / 3 = 18 (com resto 2). Atente-se ao detalhe: estamos tratando de divisão inteira, logo, o resultado não seria 6.666.
 Em suma, a nível de algoritmo, a expressão seria algo como: 20 % 3 = 2, afinal, 20 em uma divisão por 3, sobra dois.
-** (potenciação)
-sqrt() (radiciação)
+** (potenciação) 2**3 = 2 X 2 X 2 = 8
+sqrt() (radiciação) print(sqrt(4)) - IRÁ MOSTRAR o ponto de referência (2+Oj) porque não colocamos o comando completo e também adicionar uma linha de importação do pacote/biblioteca MATH de matemática onde conseguiu trazer o código pronto para poder fazer o cálculo de raiz quadrada.
 
-Os cálculos de álgebra simples, como as quatro operações fundamentais (adição, subtração, multiplicação e divisão) podem ser executados diretamente. Outros operadores que também podem ser executados de forma direta, embora não compunham as operações básicas, são o módulo (resto de uma divisão) e a potenciação, já a radiciação, requer a importação de um pacote
+E você pode importar o pacote previamente ou forçar a IDE para que ela importe os pacotes quando ela ver que precisa daquela informação.
+
+Os cálculos de álgebra simples, como as quatro operações fundamentais (adição, subtração, multiplicação e divisão) podem ser executados diretamente. Outros operadores que também podem ser executados de forma direta, embora não compunham as operações básicas, são o módulo (resto de uma divisão) e a potenciação, já a radiciação, requer a importação de um pacote.
 
 Da mesma forma que a regra de operadores, da matemática, prevalece na programação, as regras de agrupamento também estão presentes. Dessa forma, é possível utilizar o conceito de parênteses, colchetes e chaves para agrupar valores por ordem de execução de cálculo, lembrando que, em programação, utilizamos apenas parênteses para agrupar dados.
 
@@ -153,6 +155,8 @@ or (ou) - em alguns casos utiliza-se o ||, dependendo da linguagem
 ---
 
 #### Conceituando pacotes
+
+PACOTES/BIBLIOTECAS são condensados/conglomerados de códigos pré-prontos pela prória linguagem que você precisa apenas importar alguns comendos quando for utilizar alguns recursos desse código.
 
 Em algumas situações você precisará importar pacotes para realizar algumas operações, sejam elas matemáticas ou não. Pacotes são conjuntos de códigos pré-desenvolvidos e acoplados à linguagem que facilitam a construção de determinados algoritmos.
 
