@@ -119,7 +119,7 @@ São aqueles responsáveis por realizar cálculos matemáticos. São eles:
 % (módulo) O módulo é responsável por expôr o resto inteiro de uma divisão, por exemplo: 20 / 3 = 18 (com resto 2). Atente-se ao detalhe: estamos tratando de divisão inteira, logo, o resultado não seria 6.666.
 Em suma, a nível de algoritmo, a expressão seria algo como: 20 % 3 = 2, afinal, 20 em uma divisão por 3, sobra dois.
 ** (potenciação) 2**3 = 2 X 2 X 2 = 8
-sqrt() (radiciação) print(sqrt(4)) - IRÁ MOSTRAR o ponto de referência (2+Oj) porque não colocamos o comando completo e também adicionar uma linha de importação do pacote/biblioteca MATH de matemática onde conseguiu trazer o código pronto para poder fazer o cálculo de raiz quadrada.
+sqrt() (radiciação) print(sqrt(4)) - IRÁ MOSTRAR o ponto de referência (2+Oj) porque não colocamos o comando completo e também adicionar uma linha de importação do pacote/biblioteca MATH de matemática onde conseguiu trazer o código pronto para poder fazer o cálculo de raiz quadrada. / SQRT É UM MÉTODO / PASSANDO O MOUSE EM CIMA DO SQRT E APERTANDO AS TECLAS CTRL+. ELE JÁ CORRIGE. /from math import sqrt (estou importando a função sqrt do método math
 
 E você pode importar o pacote previamente ou forçar a IDE para que ela importe os pacotes quando ela ver que precisa daquela informação.
 
