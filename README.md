@@ -156,21 +156,29 @@ or (ou) - em alguns casos utiliza-se o ||, dependendo da linguagem
 
 #### Conceituando pacotes
 
-PACOTES/BIBLIOTECAS são condensados/conglomerados de códigos pré-prontos pela prória linguagem que você precisa apenas importar alguns comendos quando for utilizar alguns recursos desse código.
+PACOTES/BIBLIOTECAS são conjuntos de códigos pré-prontos pela prória linguagem e você precisa apenas importar alguns comendos quando for utilizar alguns recursos desse código e facilitam a construção de determinados algoritmos.
 
-Em algumas situações você precisará importar pacotes para realizar algumas operações, sejam elas matemáticas ou não. Pacotes são conjuntos de códigos pré-desenvolvidos e acoplados à linguagem que facilitam a construção de determinados algoritmos.
+Em algumas situações você precisará importar pacotes para realizar algumas operações, sejam elas matemáticas ou não.
+
+Existem formas de importar um pacote inteiro para dentro de um projeto, mas em geral esse tipo de prática é evitada, conforme apontado na documentação oficial do Python: “Na maioria dos casos, os programadores Python não usam esse recurso, pois ele introduz um conjunto desconhecido de nomes no interpretador, possivelmente ocultando algumas coisas que você já definiu”.
 
 Para poupar o trabalho do programador, o Python (e outras linguagens também) traz o pacote math(), responsável por importar várias funções matemáticas pré-estruturadas, dentre elas, a função de radiciação.
 
 Ao invocar a função sqrt() ela ficará com um sublinhado apontando uma possível falha. Ao posicionar o mouse sobre o erro é exposto o motivo da falha: “sqrt não está definida”. Isso significa que este arquivo em questão não sabe o que é sqrt, afinal, não há a importação de um pacote que ajude-o a identificar a função utilizada.
 
-Clicando sobre o link azul “Correção rápida”, o VSCode irá propor a importação do pacote “math”
+Clicando sobre o link azul “Correção rápida”, o VSCode irá propor a importação do pacote “math”.
 
 O código passará a funcionar da maneira correta e estará pronto para ser executado.
 
+Caso você queira importar mais funções de dentro do pacote math, precisará apenas citar seus respectivos nomes ou simplificar o processo de importação, requerendo que o Python importe TUDO de dentro do pacote math. Essa menção de “tudo” é feita por meio de um asterisco:
+
+from math import *
+
+Neste trecho de código acima, estamos informando ao Python: “importe TUDO de dentro do pacote math”.
+
 ---
 
-Não esqueça do que já exploramos:
+#### Não esqueça do que já exploramos:
 
 Tipagem dinâmica
 Sobreposição de valores em variáveis
@@ -178,7 +186,7 @@ Regras na construção de nomes de variáveis
 
 ---
 
-Não esqueça de algumas regras:
+#### Não esqueça de algumas regras:
 
 Para se agrupar informações, utilize o parênteses
 Não existe raiz quadrada de números negativos
@@ -186,4 +194,12 @@ Se quiser apontar um número como negativo, coloque o sinal de “menos” antes
 
 ---
 
-Código utilizados na aula: https://github.com/FaculdadeDescomplica/Python
+#### Código utilizados na aula: https://github.com/FaculdadeDescomplica/Python
+
+---
+
+#### Referência Bibliográfica
+
+Python.org. Funções embutidas. Disponível em <https://docs.python.org/pt-br/3/library/functions.html >. Acesso em 10/11/2022
+
+Python.org. Módulos. Disponível em <https://docs.python.org/3/tutorial/modules.html > (adaptado). Acesso em 10/11/2022
